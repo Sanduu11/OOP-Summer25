@@ -1,0 +1,22 @@
+#print my name
+print("Sandugash Nurbolat")
+
+#Variables
+x = 1234 # int， （Numeric Types， 整数）
+y =("Sandugash Nurbolat") # str, (Text Type, 文字）
+print(x)
+print(y)
+
+#也可以只运行一个
+x = 1234 # int， （Numeric Types， 整数）
+y =("Sandugash Nurbolat") # str, (Text Type, 文字）
+print(x)
+
+#str 也可以当作文本 不需要"" 
+x = str(3)
+y = int(3)
+z = float(3) #运行出来是小数点 3.0
+
+print(x)
+print(y)
+print(z)
