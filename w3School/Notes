@@ -1,0 +1,130 @@
+#print my name
+print("Sandugash Nurbolat")
+
+#Variables
+x = 1234 # int， （Numeric Types， 整数）
+y =("Sandugash Nurbolat") # str, (Text Type, 文字）
+print(x)
+print(y)
+
+#也可以只运行一个
+x = 1234 # int， （Numeric Types， 整数）
+y =("Sandugash Nurbolat") # str, (Text Type, 文字）
+print(x)
+
+#str 也可以当作文本 不需要"" 
+x = str(3)
+y = int(3)
+z = float(3) #运行出来是小数点 3.0
+
+print(x)
+print(y)
+print(z)
+
+# Variables 
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+
+#Camel case
+myVariableName = "Sandu"
+#Pascal case
+MyVariableName = "Sandu"
+#Snack case
+my_variable_name = "Sandu"
+
+#Global Variable
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+
+#Create a variable inside a function, with the same name as the global variable
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+
+
+
+
+
+
+
+
+
+# please write your name on a screen
+print("Sandugash Nurbolat")
+
+# please create a variable and set a number to it
+x = 6 
+
+# create a variable using snake case
+my_name_is = 'Sandu'
+
+# please print that variable value
+print(x)
+
+# please display a type of that variable
+print(type(x))
+
+# do the same for string
+my_cat = 'Kedi'
+print(my_cat)
+
+print(type(my_cat))
+
+# create a list of countries
+countries = ['Poland', 'Turkey', 'Germany', 'Uganda', 'Zimbabwe']
+
+# display each country in a separate line use for loop
+for c in countries:
+    print(c)  
+
+# use if statement to display that is my country for your country
+country = 'Poland'
+
+if country == 'Poland':
+    print('That is my country')
+
+# use if statement inside the loop for countries
+for c in countries:
+    print(c)
+    if c == 'Poland':
+        print('That is my country')
+
+# create a dictionary for student having the name and index number
+student1 = {
+    'name': 'Adilet',
+    'index_number': '1431423'    
+}
+
+# please access the name from that dictionary
+print("My name is", student1['name'])
+
+# create a class for a student
+class Student:
+    def __init__(self, name, index_number):
+        self.name = name
+        self.index_number = index_number
+
+# create 3 objects of that class
+student1 = Student('Adilet', '1414444')
+student2 = Student('Ada', '543534')
+student3 = Student('Adil', '342342')
+
+# please print student name and index number
+print(student1.name, student1.index_number)
+print(student2.name, student2.index_number)
+print(student3.name, student3.index_number)
+
